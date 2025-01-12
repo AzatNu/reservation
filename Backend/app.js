@@ -3,7 +3,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
 const routes = require('./routes');
-const port = 3005
+const port = 3000
+
 const app = express();
 
 app.use(express.urlencoded({ extended: true }))
